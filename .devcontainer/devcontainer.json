@@ -1,0 +1,17 @@
+{
+	"name": "cron-container",
+	"dockerComposeFile": [
+		"docker-compose.yml"
+	],
+	"service": "debian",
+	"workspaceFolder": "/app",
+	"extensions": [
+		"oderwat.indent-rainbow", // indent-rainbow
+		"wmaurer.change-case", // change-case
+		"donjayamanne.githistory", // Git History
+		"eamodio.gitlens", // GitLens — Git supercharged
+		"GitHub.vscode-pull-request-github", // GitHub Pull Requests and Issues
+	],
+	"remoteUser": "ec2-user"
+	// "shutdownAction": "none",
+}
